@@ -1,6 +1,6 @@
 # cryptonight
 
-cryptonight pow hashing library for my own miner. It simply externs monero "cn_slow_hash" function from within a .dll (windows) and/or .so (linux).
+cryptonight pow hashing library for my own miner. It simply externs monero "cn_slow_hash" function from within a .dll (windows) and/or .so (linux). I have compiled it for amd64 based cpu.
 
 ## Usage
 
