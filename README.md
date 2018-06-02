@@ -6,7 +6,6 @@ cryptonight pow hashing library for my own miner. It simply externs monero "cn_s
 
 example with python 2:
 
-  #!python2
   import binascii
   import ctypes
 
