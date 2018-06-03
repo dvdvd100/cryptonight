@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd $PWD
-
 gcc -O3 -c -fPIC -o cryptonight/aesb.o cryptonight/aesb.c
 gcc -O3 -c -fPIC -o cryptonight/blake256.o cryptonight/blake256.c
 gcc -O3 -c -fPIC -o cryptonight/groestl.o cryptonight/groestl.c
