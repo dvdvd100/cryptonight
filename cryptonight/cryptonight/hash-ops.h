@@ -38,7 +38,7 @@
 #include <stdint.h>
 
 #include "int-util.h"
-#include "epee_warnings.h"
+#include "warnings.h"
 
 static inline void *padd(void *p, size_t i) {
   return (char *) p + i;

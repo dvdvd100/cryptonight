@@ -35,11 +35,14 @@
     <ClCompile Include="cryptonight\slow-hash.c" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="compile.sh" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="cryptonight\blake256.h" />
-    <ClInclude Include="cryptonight\epee_warnings.h" />
     <ClInclude Include="cryptonight\groestl.h" />
     <ClInclude Include="cryptonight\groestl_tables.h" />
     <ClInclude Include="cryptonight\hash-ops.h" />
+    <ClInclude Include="cryptonight\hash.h" />
     <ClInclude Include="cryptonight\initializer.h" />
     <ClInclude Include="cryptonight\int-util.h" />
     <ClInclude Include="cryptonight\jh.h" />
@@ -48,15 +51,14 @@
     <ClInclude Include="cryptonight\oaes_lib.h" />
     <ClInclude Include="cryptonight\skein.h" />
     <ClInclude Include="cryptonight\skein_port.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="compile.sh" />
+    <ClInclude Include="cryptonight\variant2_int_sqrt.h" />
+    <ClInclude Include="cryptonight\warnings.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{D41B72E0-8D5F-450D-ABF0-41BF27F57A3E}</ProjectGuid>
     <RootNamespace>cryptonight</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,6 +148,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

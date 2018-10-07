@@ -2,6 +2,19 @@
 
 cryptonight pow hashing library for my own miner. It simply externs monero "cn_slow_hash" function from within a .dll (windows) and/or .so (linux). I have compiled it for amd64 based cpu.
 
+** Last update: v9 fork support added (October 2018 fork) **
+
+If you like it, please donate helping us to ensure timely development of this software:
+
+```
+PAYPAL: kevin(dot)menegatti(at)gmail(dot)com
+BTC: 348jTP9Lv5hoFiYLX7DxAy7g3znEv836V8
+ETH: 0xA6f3e78972A9b803674cCE3c12dE209aAAa810BB
+XMR: 4A4pdzJ8uYDg3hn18uzwfCNTxpRF2msYeaZBb91s5B3RAbeVHcz25Em88TzwWzmHLs6ByPJgB5fBALsUeg9mZWQXNaY6DGw
+```
+
+Thank you!
+
 ## Usage
 
 example with python 2:

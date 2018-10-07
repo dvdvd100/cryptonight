@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cryptonight\aesb.c">
+    <ClCompile Include="cryptonight.c">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="cryptonight\blake256.c">
+    <ClCompile Include="cryptonight\slow-hash.c">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="cryptonight\groestl.c">
+    <ClCompile Include="cryptonight\oaes_lib.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptonight\hash.c">
       <Filter>File di origine</Filter>
     </ClCompile>
     <ClCompile Include="cryptonight\hash-extra-blake.c">
@@ -36,48 +39,51 @@
     <ClCompile Include="cryptonight\hash-extra-skein.c">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="cryptonight\hash.c">
-      <Filter>File di origine</Filter>
-    </ClCompile>
     <ClCompile Include="cryptonight\jh.c">
       <Filter>File di origine</Filter>
     </ClCompile>
     <ClCompile Include="cryptonight\keccak.c">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="cryptonight\oaes_lib.c">
-      <Filter>File di origine</Filter>
-    </ClCompile>
     <ClCompile Include="cryptonight\skein.c">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="cryptonight\slow-hash.c">
+    <ClCompile Include="cryptonight\aesb.c">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="cryptonight.c">
+    <ClCompile Include="cryptonight\blake256.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="cryptonight\groestl.c">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cryptonight\blake256.h">
-      <Filter>File di origine</Filter>
-    </ClInclude>
-    <ClInclude Include="cryptonight\epee_warnings.h">
-      <Filter>File di origine</Filter>
-    </ClInclude>
-    <ClInclude Include="cryptonight\groestl.h">
-      <Filter>File di origine</Filter>
-    </ClInclude>
-    <ClInclude Include="cryptonight\groestl_tables.h">
-      <Filter>File di origine</Filter>
-    </ClInclude>
+    <None Include="compile.sh" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="cryptonight\hash-ops.h">
       <Filter>File di origine</Filter>
     </ClInclude>
-    <ClInclude Include="cryptonight\initializer.h">
+    <ClInclude Include="cryptonight\oaes_lib.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptonight\variant2_int_sqrt.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptonight\oaes_config.h">
       <Filter>File di origine</Filter>
     </ClInclude>
     <ClInclude Include="cryptonight\int-util.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptonight\warnings.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptonight\hash.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptonight\initializer.h">
       <Filter>File di origine</Filter>
     </ClInclude>
     <ClInclude Include="cryptonight\jh.h">
@@ -86,20 +92,20 @@
     <ClInclude Include="cryptonight\keccak.h">
       <Filter>File di origine</Filter>
     </ClInclude>
-    <ClInclude Include="cryptonight\oaes_config.h">
-      <Filter>File di origine</Filter>
-    </ClInclude>
-    <ClInclude Include="cryptonight\oaes_lib.h">
-      <Filter>File di origine</Filter>
-    </ClInclude>
     <ClInclude Include="cryptonight\skein.h">
       <Filter>File di origine</Filter>
     </ClInclude>
     <ClInclude Include="cryptonight\skein_port.h">
       <Filter>File di origine</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="compile.sh" />
+    <ClInclude Include="cryptonight\blake256.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptonight\groestl.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptonight\groestl_tables.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
