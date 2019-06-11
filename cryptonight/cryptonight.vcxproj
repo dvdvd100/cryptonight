@@ -22,6 +22,7 @@
     <ClCompile Include="cryptonight.c" />
     <ClCompile Include="cryptonight\aesb.c" />
     <ClCompile Include="cryptonight\blake256.c" />
+    <ClCompile Include="cryptonight\CryptonightR_JIT.c" />
     <ClCompile Include="cryptonight\groestl.c" />
     <ClCompile Include="cryptonight\hash-extra-blake.c" />
     <ClCompile Include="cryptonight\hash-extra-groestl.c" />
@@ -39,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cryptonight\blake256.h" />
+    <ClInclude Include="cryptonight\CryptonightR_JIT.h" />
+    <ClInclude Include="cryptonight\CryptonightR_template.h" />
     <ClInclude Include="cryptonight\groestl.h" />
     <ClInclude Include="cryptonight\groestl_tables.h" />
     <ClInclude Include="cryptonight\hash-ops.h" />
@@ -52,6 +55,7 @@
     <ClInclude Include="cryptonight\skein.h" />
     <ClInclude Include="cryptonight\skein_port.h" />
     <ClInclude Include="cryptonight\variant2_int_sqrt.h" />
+    <ClInclude Include="cryptonight\variant4_random_math.h" />
     <ClInclude Include="cryptonight\warnings.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
